@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<link rel="stylesheet" href="../install/ChemDoodleWeb.css" type="text/css">
+<script type="text/javascript" src="../install/ChemDoodleWeb-libs.js"></script>
+<script type="text/javascript" src="../install/ChemDoodleWeb.js"></script>
+<title>3D ChemDoodle Web Component using WebGL : Interactive Model of DDT</title>
+</head>
+<body>
+<script>
+	// setup component
+	var transformBallAndStick = new ChemDoodle.TransformCanvas3D('transformBallAndStick', 300, 300);
+	// set the representation to 'Ball and Stick'
+	transformBallAndStick.specs.set3DRepresentation('Ball and Stick');
+	// set the background color to black
+	transformBallAndStick.specs.backgroundColor = 'black';
+
+	// load data
+	var molFile = 'Ethanol, ID: C64175\n  NIST    04042217093D 1   1.00000     0.00000      \nNIST Chemistry WebBook\n  9  8  0     0  0              1 V2000\n    1.0303    0.8847    0.9763 C   0  0  0  0  0  0           0  0  0\n    1.8847    1.9889    1.5717 C   0  0  0  0  0  0           0  0  0\n    3.1883    1.4807    1.7425 O   0  0  0  0  0  0           0  0  0\n    0.0000    1.2330    0.8324 H   0  0  0  0  0  0           0  0  0\n    0.9949    0.0000    1.6255 H   0  0  0  0  0  0           0  0  0\n    1.4097    0.5558    0.0000 H   0  0  0  0  0  0           0  0  0\n    1.9050    2.8742    0.9059 H   0  0  0  0  0  0           0  0  0\n    1.4753    2.3225    2.5456 H   0  0  0  0  0  0           0  0  0\n    3.7056    2.1820    2.1139 H   0  0  0  0  0  0           0  0  0\n  1  2  1  0     0  0\n  1  4  1  0     0  0\n  1  5  1  0     0  0\n  1  6  1  0     0  0\n  2  3  1  0     0  0\n  2  7  1  0     0  0\n  2  8  1  0     0  0\n  3  9  1  0     0  0\nM  END\n';
+	// set the coordinate multiplier to 1 to stay in Angstroms
+	var molecule = ChemDoodle.readMOL(molFile, 1);
+	transformBallAndStick.loadMolecule(molecule);
+</script>
+<br>
+<a href="http://web.chemdoodle.com" title="Open Source HTML5 Chemistry - ChemDoodle Web Components"><img src="http://web.chemdoodle.com/resources/images/badges/badge120x60.png" /></a>
+</body>
+</html>
