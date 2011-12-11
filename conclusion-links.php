@@ -6,8 +6,7 @@ If you want WebGL for General Use, Check out the <a href="http://code.google.com
 
 This page relies on data from NIST.gov and the ChemicalBook.com. It uses ChemDoodle API to render .MOL files.
 
-All the mol files used are under the 
-Computed 3d Mol file data courtesy of NIST.gov and ChemicalBook.com  <br/> <br/>
+All the mol files used are under the <a href="/data">/data</a> folder. <br/> <br/>
 <b><a href="https://github.com/anebg/webGL">GitHub Repo</a> for the whole chemistry.andrebrutus.com site.</b><br/><br/>
 Some other cool stuff (from the demo of chemdoodle)<br/>
 <script type="text/javascript" src="../data/molecules/2OEY.js"></script>
