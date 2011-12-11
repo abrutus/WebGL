@@ -8,8 +8,8 @@ This page relies on data from NIST.gov and the ChemicalBook.com. It uses ChemDoo
 
 All the mol files used are under the 
 Computed 3d Mol file data courtesy of NIST.gov and ChemicalBook.com  <br/> <br/>
-<b><a href="https://github.com/anebg/webGL" target="_blank">GitHub Repo</a> for the whole chemistry.andrebrutus.com site.</b><br/><br/>
-Some other cool stuff (from the demo of chemdoodle)<br>
+<b><a href="https://github.com/anebg/webGL">GitHub Repo</a> for the whole chemistry.andrebrutus.com site.</b><br/><br/>
+Some other cool stuff (from the demo of chemdoodle)<br/>
 <script type="text/javascript" src="../data/molecules/2OEY.js"></script>
 <script type="text/javascript">
 	// setup component
@@ -35,7 +35,7 @@ Some other cool stuff (from the demo of chemdoodle)<br>
 </script>
 <br/><br/>
 If you need to contact me, abru<a href="http://www.google.com/recaptcha/mailhide/d?k=01M58r3w7BgDuMsHhkaq9D2w==&amp;c=Rrt6Rudn-zcHxZvrlc4kew0NVzvl60KnHj02vQaAwY0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501M58r3w7BgDuMsHhkaq9D2w\75\75\46c\75Rrt6Rudn-zcHxZvrlc4kew0NVzvl60KnHj02vQaAwY0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">...</a>@southern.edu
-<br />Thank you to:<a href="http://webbook.nist.gov/chemistry/form-ser.html"><img src="images/nist.gif"></a>
+<br />Thank you to:<a href="http://webbook.nist.gov/chemistry/form-ser.html"><img src="images/nist.gif" alt="NIST.gov"/></a>
 <script type="text/javascript">
 	$(function() {
 		$('#nav1').addClass('active');

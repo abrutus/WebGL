@@ -127,7 +127,7 @@
 					<li>
 						<a href="http://chemed.chem.purdue.edu/genchem/topicreview/bp/ch8/table.html">Helpful Reference (Chemistry)</a>
 					</li>
-				</ul
+				</ul>
 				<? endif; ?>
 				<h3>About</h3>
 				<p class="about">
@@ -150,7 +150,7 @@
 				-moz-transform:rotate(180deg);-o-transform:rotate(180deg);
 				filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);"> &copy; </span> </a> andrebrutus
 			</p>
-			<a href="http://www.chemdoodle.com/" title="Open Source HTML5 Chemistry - ChemDoodle Web Components"><img src="http://web.chemdoodle.com/resources/images/badges/badge120x30.png" /></a>
+			<a href="http://www.chemdoodle.com/" title="Open Source HTML5 Chemistry - ChemDoodle Web Components"><img src="http://web.chemdoodle.com/resources/images/badges/badge120x30.png" alt="ChemDoodle" /></a>
 		</div>
 		<script type="text/javascript">
 			function changeSettings(settings){
