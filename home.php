@@ -38,7 +38,7 @@
 	</li>
 </ul>
 Computed 3d Mol file data courtesy of NIST.gov and ChemicalBook.com  <br/>
-<a href="http://webbook.nist.gov/chemistry/form-ser.html"><img src="images/nist.gif"></a>
+<a href="http://webbook.nist.gov/chemistry/form-ser.html"><img src="images/nist.gif" alt="Nist.gov" /></a>
 <script type="text/javascript">
 	$(function() {
 		$('#nav1').addClass('active');
