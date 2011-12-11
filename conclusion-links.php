@@ -37,7 +37,7 @@ If you need to contact me, abru<a href="http://www.google.com/recaptcha/mailhide
 <br />Thank you to:<a href="http://webbook.nist.gov/chemistry/form-ser.html"><img src="images/nist.gif" alt="NIST.gov"/></a>
 <script type="text/javascript">
 	$(function() {
-		$('#nav1').addClass('active');
+		$('#nav2').addClass('active');
 	});
 
 </script>

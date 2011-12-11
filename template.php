@@ -47,7 +47,7 @@ Alt + Click to Drag, Scroll to Zoom<br/>
 	transformBallAndStick.loadMolecule(molecule);
 
 	$(function() {
-		$('#nav1').addClass('active');
+		
 		<?=$help;?>
 	});
 	</script>
